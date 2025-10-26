@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Application</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Flask Application</h1>
+        <p>This is the main page</p>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/multiply/2/3/4/5">Multiply Example</a></li>
+                <li><a href="/info">JSON Info</a></li>
+                <li><a href="/hello/Beka">Greet Example</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
